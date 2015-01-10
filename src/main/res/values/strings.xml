@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RangerBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_string">Date:</string>
+    <string name="latitude_string">Latitude:</string>
+    <string name="longitude_string">Longitude:</string>
+    <string name="add_new_location_string">Add New Location</string>
+    <string name="title_string">Location Description</string>
+    <string name="enter_title_string">Enter Location Description</string>
+    <string name="cancel_string">Cancel</string>
+    <string name="reset_string">Reset</string>
+    <string name="submit_string">Submit</string>
+
+</resources>

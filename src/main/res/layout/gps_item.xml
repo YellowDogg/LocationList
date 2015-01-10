@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/sensorDataLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:textColor="#ff0000ff"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <!-- Date -->
+
+    <LinearLayout
+        android:id="@+id/dateLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView">
+
+        <TextView
+            android:id="@+id/dateLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date_string"
+            android:layout_weight=".50" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- Latitude -->
+
+    <LinearLayout
+        android:id="@+id/latitudeLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateLine">
+
+        <TextView
+            android:id="@+id/latitudeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude_string"
+            android:layout_weight=".50" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/latitudeView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- Longitude -->
+
+    <LinearLayout
+        android:id="@+id/longitudeLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitudeLine">
+
+        <TextView
+            android:id="@+id/longitudeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude_string"
+            android:layout_weight=".50" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/longitudeView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50" >
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>
